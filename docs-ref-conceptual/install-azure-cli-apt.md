@@ -60,7 +60,7 @@ If you don't want to run a script as superuser or the all-in-one script fails, f
     ```bash
     curl -sL https://packages.microsoft.com/keys/microsoft.asc |
         gpg --dearmor |
-        sudo tee /etc/apt/trusted.gpg.d/microsoft.asc.gpg > /dev/null
+        sudo tee /etc/apt/trusted.gpg.d/microsoft.gpg > /dev/null
     ```
 
 3. <div id="set-release"/>Add the Azure CLI software repository:
